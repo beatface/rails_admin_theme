@@ -403,6 +403,10 @@ td.carrierwave_type .img-thumbnail {
   border-radius: 2px;
 }
 
+body.rails_admin .table td {
+  max-width: unset;
+}
+
 #sortable {
   list-style-type: none;
   margin: 0;
