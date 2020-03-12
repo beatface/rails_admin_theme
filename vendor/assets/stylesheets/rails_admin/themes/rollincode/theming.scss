@@ -357,6 +357,11 @@ body.rails_admin .table td {
   max-width: unset;
 }
 
+#list td.title_field {
+  width: 40%;
+  max-width: unset !important;
+}
+
 .row-highlight td {
   background: rgba($secondary, .1) !important;
 }
